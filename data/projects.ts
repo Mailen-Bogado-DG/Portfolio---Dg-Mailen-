@@ -23,8 +23,8 @@ export const projects: Project[] = [
     "title": "Artise Fundación",
     "category": "Identidad visual",
     "year": "",
-    "cover": "/images/projects/artise-fundacion.png",
-    "coverAlt": "Logotipo azul de Artise Fundación con un oso hormiguero",
+    "cover": "/images/projects/artise-merchandising.png",
+    "coverAlt": "Identidad de Artise Fundación aplicada a remeras, tazas, barbijos y llaveros sobre fondo lila",
     "description": "",
     "context": "",
     "process": "",
@@ -39,8 +39,8 @@ export const projects: Project[] = [
     "title": "Date un Break",
     "category": "Campaña gráfica",
     "year": "",
-    "cover": "/images/projects/date-un-break.svg",
-    "coverAlt": "Date un Break, campaña contra la ansiedad en amarillo y violeta",
+    "cover": "/images/projects/date-un-break-campana.png",
+    "coverAlt": "Date un Break: campaña contra la ansiedad con fondo amarillo, formas fucsias y dibujos negros",
     "description": "",
     "context": "",
     "process": "",
@@ -55,8 +55,8 @@ export const projects: Project[] = [
     "title": "Ahorro de energía",
     "category": "Ilustración",
     "year": "",
-    "cover": "/images/projects/ahorro-de-energia.svg",
-    "coverAlt": "Ilustración en blanco y negro de enchufes para Ahorro de energía",
+    "cover": "/images/projects/ahorro-de-energia-aparatos.png",
+    "coverAlt": "Enchufes preocupados rodeados de ilustraciones coloridas de lámparas y aparatos eléctricos",
     "description": "",
     "context": "",
     "process": "",
@@ -71,13 +71,13 @@ export const projects: Project[] = [
     "title": "Disco de Vinilo",
     "category": "Diseño discográfico",
     "year": "",
-    "cover": "/images/projects/disco-de-vinilo.svg",
-    "coverAlt": "Diseño de portada y disco de vinilo Black Gospel",
+    "cover": "/images/projects/black-gospel-vinilo.png",
+    "coverAlt": "Portada crema y amarilla de Black Gospel junto a un disco de vinilo sobre un fondo claro",
     "description": "",
     "context": "",
     "process": "",
     "services": [],
-    "images": [],
+    "images": [{ "src": "/images/projects/disco-vinilo-pagina-1.png", "alt": "Página 1 del proyecto Black Gospel: diseño desplegado del disco de vinilo", "layout": "full" }],
     "mockups": [],
     "isPlaceholder": false
   },
@@ -87,13 +87,13 @@ export const projects: Project[] = [
     "title": "Torneo Abierto del Nordeste",
     "category": "Diseño para eventos",
     "year": "",
-    "cover": "/images/projects/torneo-abierto-del-nordeste.svg",
+    "cover": "/images/projects/05-abierto-del-nordeste.svg",
     "coverAlt": "Pieza gráfica del Torneo Abierto del Nordeste sobre un campo de golf",
     "description": "",
     "context": "",
     "process": "",
     "services": [],
-    "images": [],
+    "images": [{ "src": "/images/projects/torneo-panel-identidad-hd.png", "alt": "Identidad visual y concepto del Torneo Abierto del Nordeste", "layout": "full" }, { "src": "/images/projects/torneo-panel-aplicaciones-hd.png", "alt": "Aplicaciones digitales, institucionales y merchandising del Torneo Abierto del Nordeste", "layout": "full" }],
     "mockups": [],
     "isPlaceholder": false
   },
@@ -103,13 +103,13 @@ export const projects: Project[] = [
     "title": "Siac Salud",
     "category": "Identidad visual",
     "year": "",
-    "cover": "/images/projects/siac-salud.svg",
-    "coverAlt": "Logotipo de Siac Salud con una mascota blanca y letras azules",
+    "cover": "/images/projects/siac-salud-alta-calidad-4k.png",
+    "coverAlt": "Logotipo de Siac Salud con una mascota y letras blancas sobre fondo azul",
     "description": "",
     "context": "",
     "process": "",
     "services": [],
-    "images": [],
+    "images": [{"src": "/images/projects/siac-panel-intervencion.png", "alt": "Siac Salud: proyecto de intervención, contexto, objetivos y respaldo institucional", "layout": "full"}, {"src": "/images/projects/siac-panel-piezas.png", "alt": "Siac Salud: planimetría, señalización modular y gestor de turnos", "layout": "full"}, {"src": "/images/projects/siac-panel-piezas-2.png", "alt": "Siac Salud: señalización de edificios, plantas, servicios y áreas", "layout": "full"}, {"src": "/images/projects/siac-panel-diseno.png", "alt": "Siac Salud: fundamentos de diseño, paleta cromática, pictogramas y acompañante visual Milo", "layout": "full"}],
     "mockups": [],
     "isPlaceholder": false
   },
@@ -119,7 +119,7 @@ export const projects: Project[] = [
     "title": "Meb Personalizados",
     "category": "Identidad visual",
     "year": "",
-    "cover": "/images/projects/meb-personalizados.png",
+    "cover": "/images/projects/meb-personalizados-cover.svg",
     "coverAlt": "Identidad de Meb Personalizados en blanco sobre fondo violeta",
     "description": "",
     "context": "",
@@ -128,5 +128,52 @@ export const projects: Project[] = [
     "images": [],
     "mockups": [],
     "isPlaceholder": false
+  },
+{
+  "id": 8,
+  "slug": "100-anos-diseno-comunicacion-argentina",
+  "title": "100 AÑOS DE DISEÑO Y COMUNICACIÓN EN ARGENTINA",
+  "category": "Diseño editorial",
+  "year": "",
+  "cover": "/images/projects/100-anos-diseno-argentino.png",
+  "coverAlt": "Cubierta de 100 años de diseño y comunicación en Argentina, con ilustraciones en rojo y azul",
+  "description": "",
+  "context": "",
+  "process": "",
+  "services": [],
+  "images": [
+  {
+    "src": "/images/projects/100-anos-tapa.png",
+    "alt": "Tapa del libro de 100 años de diseño y comunicación en Argentina",
+    "layout": "half"
+  },
+  {
+    "src": "/images/projects/100-anos-tapa-contra.png",
+    "alt": "Tapa y contratapa del libro de 100 años de diseño y comunicación en Argentina",
+    "layout": "half"
+  },
+  {
+    "src": "/images/projects/100-anos-segundas-paginas.png",
+    "alt": "Créditos e índice de 100 años de diseño y comunicación en Argentina",
+    "layout": "half"
+  },
+  {
+    "src": "/images/projects/100-anos-primeras-paginas.png",
+    "alt": "Primeras páginas del libro de 100 años de diseño y comunicación en Argentina",
+    "layout": "half"
+  },
+  {
+    "src": "/images/projects/100-anos-doble-44-45.png",
+    "alt": "Doble página interior 44 y 45 de 100 años de diseño y comunicación en Argentina",
+    "layout": "half"
+  },
+  {
+    "src": "/images/projects/100-anos-doble-46-47.png",
+    "alt": "Doble página interior 46 y 47 de 100 años de diseño y comunicación en Argentina",
+    "layout": "half"
   }
+],
+  "mockups": [],
+  "isPlaceholder": false
+}
 ];

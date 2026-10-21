@@ -22,7 +22,7 @@ export function Header() {
   }, []);
   return <header className="site-header" ref={headerRef}>
     <div className="shell header-inner">
-      <Link href="/#inicio" className="wordmark" aria-label="Mai, ir al inicio" onClick={() => setOpen(false)}><Image src="/images/mai-logo.png" alt="Mai — Graphic Designer" width={268} height={152} className="brand-logo" /></Link>
+      <Link href="/#inicio" className="wordmark" aria-label="Mai, ir al inicio" onClick={() => setOpen(false)}><Image src="/images/mai-logo.svg" alt="Mai — Graphic Designer" width={375} height={292} className="brand-logo" /></Link>
       <button ref={buttonRef} type="button" className="menu-toggle" aria-expanded={open} aria-controls="main-navigation" aria-label={open ? "Cerrar menú" : "Abrir menú"} onClick={() => setOpen(!open)}><span className={open ? "menu-lines is-open" : "menu-lines"} /></button>
       <nav id="main-navigation" aria-label="Navegación principal" className={open ? "main-nav is-open" : "main-nav"}>
         {links.map(([id, label]) => <Link key={id} href={`${pathname === "/" ? "" : "/"}#${id}`} onClick={() => setOpen(false)}>{label}</Link>)}
