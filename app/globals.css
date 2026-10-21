@@ -652,3 +652,19 @@ button, a { touch-action: manipulation; }
 .footer p { margin: 0; font-size: 13px; }
 .footer p span { font-size: 12px; }
 .footer-credit { margin: 4px 0 0; font-size: 10px; }
+
+/* Software tools above the project collection. */
+.software-bar { background: var(--pink); color: var(--purple); padding-block: 38px; }
+.software-inner { display: flex; align-items: center; gap: 40px; }
+.software-inner h2 { flex: 0 0 180px; font-size: 25px; line-height: 1.2; font-weight: 700; letter-spacing: -.03em; }
+.software-inner h2 > span { display: inline-block; margin-right: 6px; }
+.software-list { flex: 1; display: grid; grid-template-columns: repeat(9, minmax(0, 1fr)); gap: 16px; list-style: none; padding: 0; margin: 0; }
+.software-list li { display: flex; flex-direction: column; align-items: center; gap: 12px; text-align: center; min-width: 0; }
+.software-icon { display: flex; align-items: center; justify-content: center; width: 58px; height: 58px; overflow: hidden; flex-shrink: 0; }
+.software-icon img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.software-icon--figma img { width: 270%; height: 270%; max-width: none; flex-shrink: 0; }
+.software-icon--canva img { width: 190%; max-width: none; flex-shrink: 0; }
+.software-indesign { display: grid; place-items: center; width: 100%; height: 100%; border-radius: 12px; background: #49021f; color: #ff3366; font-family: Arial, sans-serif; font-weight: 600; font-size: 36px; }
+.software-name { font-size: 12px; line-height: 1.4; }
+@media (max-width: 1100px) { .software-inner { flex-direction: column; gap: 26px; } .software-inner h2 { flex-basis: auto; text-align: center; } .software-inner h2 br { display: none; } .software-list { width: 100%; gap: 12px; } }
+@media (max-width: 650px) { .software-bar { padding-block: 30px; } .software-list { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 16px; } .software-name { font-size: 13px; } }

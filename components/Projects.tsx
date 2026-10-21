@@ -1,9 +1,11 @@
+import { SoftwareBar } from "./SoftwareBar";
 import { projects } from "@/data/projects";
 import { ProjectItem } from "./ProjectItem";
 import { Arrow } from "./Icons";
 
 export function Projects() {
   return <section id="trabajos" className="projects section-space">
+    <SoftwareBar />
     <div className="projects-banner">
       <div className="shell">
         <div className="section-topline"><span>UNA SELECCIÓN DE IDEAS HECHAS DISEÑO</span><span>01 — {String(projects.length).padStart(2, "0")}</span></div>
