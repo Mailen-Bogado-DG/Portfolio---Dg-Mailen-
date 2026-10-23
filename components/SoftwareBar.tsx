@@ -15,7 +15,7 @@ const software = [
 export function SoftwareBar() {
   return <section className="software-bar" aria-labelledby="software-title">
     <div className="shell software-inner">
-      <h2 id="software-title"><span aria-hidden="true">✦</span> Herramientas<br />que uso</h2>
+      <h2 id="software-title"><span aria-hidden="true">✦</span> Herramientas que uso</h2>
       <ul className="software-list">{software.map(tool => <li key={tool.id}>
         <span className={`software-icon software-icon--${tool.id}`} aria-hidden="true">
           {tool.id === "indesign" ? <span className="software-indesign">Id</span> : <Image src={`/images/software/${tool.id}.webp`} alt="" width={64} height={64} />}
